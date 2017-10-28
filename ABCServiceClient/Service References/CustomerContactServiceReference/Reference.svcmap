@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="01afdd85-7a0c-4ffc-b0e0-c4e7c4476f68" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8765/ABCServices/CustomerContactService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CustomerContactService.wsdl" MetadataType="Wsdl" ID="b6b9cd1c-ebc3-4761-81a7-59ce50667f40" SourceId="1" SourceUrl="http://localhost:8765/ABCServices/CustomerContactService/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="26281ace-8ebc-42a4-bb58-d2e052cbd6cf" SourceId="1" SourceUrl="http://localhost:8765/ABCServices/CustomerContactService/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="a3d21674-2bc8-495a-9d2c-5c162d1cacb3" SourceId="1" SourceUrl="http://localhost:8765/ABCServices/CustomerContactService/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="578fe8ef-29c1-4ecc-a338-e50fd933cceb" SourceId="1" SourceUrl="http://localhost:8765/ABCServices/CustomerContactService/?xsd=xsd0" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="782bcc90-ae06-4932-a077-9e76279efcbd" SourceId="1" SourceUrl="http://localhost:8765/ABCServices/CustomerContactService/?xsd=xsd3" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="904b0aa0-551a-48f8-9498-44e0d15c8157" SourceId="1" SourceUrl="http://localhost:8765/ABCServices/CustomerContactService/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

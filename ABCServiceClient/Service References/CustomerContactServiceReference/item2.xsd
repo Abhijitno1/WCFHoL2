@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="batatawada.com" elementFormDefault="qualified" targetNamespace="batatawada.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8765/ABCServices/CustomerContactService/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ABCServices" />
+  <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ABCServices" name="MyContact" nillable="true" type="q1:Customer" />
+</xs:schema>
